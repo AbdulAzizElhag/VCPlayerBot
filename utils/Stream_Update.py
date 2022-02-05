@@ -5,8 +5,8 @@ import time
 
 #globle variables
 load_dotenv()
-CHAT_ID = os.getenv('CHAT_ID')
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 time_interval = 15*60
 
 def send_update(chat_id,msg):
